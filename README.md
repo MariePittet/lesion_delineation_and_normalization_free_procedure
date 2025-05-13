@@ -1,5 +1,9 @@
 # lesion_delineation_and_normalization_free_procedure
 Lesion delineation and normalization using a free procedure (+ advices for TBI lesion delineation).
+
+You'll need to have a linux terminal such as WSL on Windows. Sometimes, there are just too many compatibility issues between ITK-SNAP lesion masks and normalization scripts in FSL (even after reorienting, resampling, etc), and you may have to resort to using SPM on Matlab.
+In any case, always check your normalized lesions!!!
+
 For questions: marie.pittet93@gmail.com
 
 ## Lesion delineation: 
@@ -11,5 +15,4 @@ Free bash pipeline using FSL. Input: your binary lesion masks. Output: normalize
 - Converts DICOM to Nifti
 - Reorients the files
 - Normalizes the lesion masks
-You'll need to have a linux terminal such as WSL on Windows. Sometimes, there are too many compatibilites between ITK-SNAP lesion masks and normalization scripts in FSL, and you may want to resort to using SPM on Matlab.
-In any case, always check your normalized lesions!!!
+
