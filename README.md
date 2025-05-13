@@ -1,9 +1,9 @@
 # lesion_delineation_and_normalization_free_procedure
-Lesion delineation and normalization using a free procedure (+ advices for TBI lesion delineation). This is a procedure that 
+Lesion delineation and normalization using a free procedure (+ advices for TBI lesion delineation).
 For questions: marie.pittet93@gmail.com
 
 ## Lesion delineation: 
-I used the free software ITK-Snap (https://www.itksnap.org/pmwiki/pmwiki.php) which allows to view and draw lesions on multiple scanning modalities at once. 
+I used the free software ITK-Snap (https://www.itksnap.org/pmwiki/pmwiki.php) which allows to view and draw lesions on multiple scanning modalities all at once. 
 
 ## Lesion normalization:
 Free bash pipeline using FSL. Input: your binary lesion masks. Output: normalized binary lesion masks (brought to MNI 152 space)
